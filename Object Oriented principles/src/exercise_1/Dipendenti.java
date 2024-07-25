@@ -24,7 +24,7 @@ public class Dipendenti implements OreLavorate {
     //METODI
     public void calcoloStipendio(double orePresenze, double pagaOraria) {
         this.stipendio = orePresenze * pagaOraria;
-        System.out.println(this.stipendio);
+        System.out.println("€" + " " + this.stipendio);
     }
 
     public byte getMatricola() {
@@ -47,7 +47,7 @@ public class Dipendenti implements OreLavorate {
     public String toString() {
         return "Dipendenti{" +
                 "Matricola =" + matricola +
-                ", Stipendio =" + "€" + stipendio +
+                ", Stipendio =" + "€" + " " + stipendio +
                 ", Dipartimento ='" + dipartimento + '\'' +
                 '}';
     }
