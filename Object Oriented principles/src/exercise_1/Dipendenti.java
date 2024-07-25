@@ -1,11 +1,10 @@
 package exercise_1;
 
 import enums.Dipartimento;
-import interface_personal.OreLavorate;
 
 import java.util.Random;
 
-public class Dipendenti implements OreLavorate {
+public class Dipendenti {
     //ATTRIBUTI
     private final byte matricola;
     private double stipendio;
@@ -25,6 +24,8 @@ public class Dipendenti implements OreLavorate {
     public void calcoloStipendio(double orePresenze, double pagaOraria) {
         this.stipendio = orePresenze * pagaOraria;
         System.out.println("€" + " " + this.stipendio);
+
+
     }
 
     public byte getMatricola() {

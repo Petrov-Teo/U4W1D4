@@ -22,6 +22,14 @@ public class Main {
         System.out.println(dipendente3);
         System.out.println("——————————————————————————————————————————————————————————————————————————————————————");
         System.out.println("——————————————————————————————————————————————————————————————————————————————————————");
+
+        Dipendenti[] dipendentiArray = {dipendente1, dipendente2, dipendente3};
+
+        for (int i = 0; i < dipendentiArray.length; i++) {
+            System.out.println(dipendentiArray[i]);
+        }
+        System.out.println(dipendente1.getStipendio() + dipendente2.getStipendio() + dipendente3.getStipendio());
+
     }
 
 
